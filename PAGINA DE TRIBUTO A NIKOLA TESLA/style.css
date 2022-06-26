@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(45deg, #555 ,rgb(70, 55, 45));
+}
+
+/* Contenedor de todos los elementos  */
+#main{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(211, 211, 211, 0.4);
+    margin:30px;
+    border-radius: 3%;
+}
+/* Titulo y descripcion */
+#title{
+    margin: 20px 20px 4px 20px ;
+    align-self: center;
+    color: #333d;
+    font-size: 4vw;
+}
+
+#description{
+    align-self: center;
+    margin: 20px;
+    color: #333d;
+    font-size:18px;
+    text-align: center;
+}
+
+/* Imagen y descripcion */
+#img-div{
+    margin: 10px;
+    background: linear-gradient(180deg, rgb(71, 64, 64) ,rgb(146, 146, 146));
+    display: flex;
+    flex-direction: column;
+    border-radius: 3%;
+}
+
+#image{
+    margin: 20px;
+    max-width: 80vw;
+    align-self: center;
+    justify-self: center;
+    border-radius: 3%;
+}
+
+#img-caption{
+    align-self: center;
+    margin-bottom: 20px;
+    color:#333d;
+    font-size:20px;
+}
+/* Parafo de la informacion */
+#tribute-info{
+    display: flex;
+    flex-direction: column;
+    color:#333d;
+    text-align: center;
+}
+
+.parafo-info{
+    align-self: center;
+    margin: 10px 20px 10px 20px; 
+}
+
+.subtitulo{
+    align-self: center;
+    margin: 10px;
+    font-size: 2vw;
+}
+
+.p-tribute-link{
+    margin:20px;
+    align-self: center;
+    color: #333d;
+}
